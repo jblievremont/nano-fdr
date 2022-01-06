@@ -53,3 +53,11 @@ The dumped JSON looks like this:
       /* ... */
       {"x":-0.50,"y":-0.57,"z":7.32}
     ]
+
+Dump utility
+------------
+
+Folder `nano-fdr-dump` contains a Python script that relies on
+[pySerial](https://github.com/pyserial/pyserial) to dump the recorded data.
+
+Script has been tested on Windows 11 with Python 3.10.
